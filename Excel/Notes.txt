@@ -1,0 +1,87 @@
+Dataset Overview:
+We will use the 'Practise_set' which has columns: Sno, First Name, Last Name, DOJ, Sal-Jan, Sal-Feb, Sal-Mar, Sal Total, Avg Sal, Full Name.
+
+----------------------------------------------------
+1. Basic Features - Intro
+Excel is a spreadsheet software where data is organized into rows and columns. 
+Example: Our dataset has employee salary details for Jan, Feb, and Mar.
+
+2. Basic Formatting
+Formatting improves readability.
+- Bold: Highlight 'Full Name' column and press Ctrl+B.
+- Change color: Select header row and change fill color to light yellow.
+
+3. Using Formulas
+Formulas allow calculations.
+Example: To calculate total salary for an employee:
+=SUM(E2:G2) → adds Jan, Feb, and Mar salary.
+
+4. Save File
+Go to File → Save As → Choose location → Enter file name → Save.
+
+5. Filter & Sorting
+- Filter: Data → Filter → Click dropdown in 'First Name' and select 'A' to see only employee A.
+- Sort: Data → Sort by 'Avg Sal' from largest to smallest.
+
+6. Conditional Formatting
+Highlight cells based on rules.
+Example: Highlight employees with Avg Sal > 150:
+Home → Conditional Formatting → Highlight Cell Rules → Greater Than → 150.
+
+7. Insert & Delete Columns or Rows
+- Insert: Right-click a column letter → Insert.
+- Delete: Right-click row number → Delete.
+
+8. Find & Remove Duplicates
+Select data → Data → Remove Duplicates.
+
+9. Merge & Centre
+Merge headers over multiple columns:
+Select cells A1:C1 → Home → Merge & Centre.
+
+10. Rounding of Numbers
+=ROUND(H2, 0) → rounds Avg Sal to nearest whole number.
+
+11. Autofill in Excel
+Enter 1 in a cell, 2 in the next → drag the fill handle down to auto-complete numbers.
+
+12. Add or Edit Comment
+Right-click cell → New Comment → Type your note.
+
+13. Filters
+Already covered in point 5.
+
+14. Sorting on Multiple Columns
+Data → Sort → First by 'Last Name', then by 'First Name'.
+
+15. Insert Table
+Select range → Insert → Table → Check 'My table has headers'.
+
+16. Slicers
+After creating a table, Insert → Slicer → Select 'First Name' → Use slicer buttons to filter.
+
+17. Insert Picture or Shapes
+Insert → Picture/Shapes → Choose image or draw shape.
+
+18. Add Link or Hyperlink
+Right-click cell → Link → Enter URL.
+
+19. Add Drop Down List
+Data → Data Validation → List → Enter values A,B,C or select from a range.
+
+20. Split Text
+Example: If 'Full Name' = "A F", use:
+=TEXTSPLIT(J2, " ") → returns first and last names separately.
+
+21. Charts in Excel
+Select data → Insert → Chart (Column, Pie, Line).
+Example: Plot Avg Sal for each employee.
+
+22. VLOOKUP Formula
+=VLOOKUP("A", B2:J6, 8, FALSE) → finds Avg Sal of employee with First Name 'A'.
+
+23. Pivot Table
+Insert → Pivot Table → Drag 'First Name' to Rows, 'Avg Sal' to Values → Summarizes data.
+
+----------------------------------------------------
+This guide covers all the essential Excel features using our dataset as an example.
